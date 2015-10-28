@@ -10,54 +10,85 @@
 # #+LaTeX_CLASS_OPTIONS: [14pt]
 
 
-* 背景
+* 研究の背景
+** アジャイル開発に適した要求分析手法
+   - アジャイル型のソフトウエア開発「Scrum」が注目されている
+   - スタートアップ型のビジネスのためのシステム開発に適しているとされる
+     - 「リーンスタートアップ」の考え方と組み合わせられることが多い
+   - 近年、Scrumを大規模な業務システム開発にも適用しようとされる試みが始まっている
+     - *このような場合の要求分析の方法は？*
+
 ** アジャイル開発における要求分析
-  - アジャイル開発における要求の分析
-  - Scrum -> Product Backlogを作ることから始める
-  - Product Back Log の作り方
-** リーンキャンバス
-*** リーンキャンバスとは
-#+CAPTION: caption
-    #+ATTR_LaTeX: scale=0.75
-    #+LABEL: fig:label
+*** Scrumと要求分析
+  - Scrumは「Product Backlog」を作ることから始まる
+*** Product Back Logとは
+  - POが作成した「ユーザストーリ」
+  - アイテムには優先順位をつける
+  - 常に開発の状況と道筋を反映し続ける
+
+** Product Back Log作成の前工程
+*** リーンキャンバス
     - 「30分で作る事業計画書」
+      - 詳細な事業計画書を作るのではなく、1枚の紙にまとめる
+*** エレベータピッチ
+    - アメリカ・シリコンバレーの起業家が発祥のプレゼンテーション方法
+    - 30秒・約250字で相手に自社やサービス、自分自身のことを相手に説明する方法
+
 ** リーンキャンバスの例
 
-#+CAPTION: Tools used in enPiT Program.
-#+NAME:   fig:tools
+#+CAPTION: Template of lean canvas
+#+NAME:   fig:leancanvas
 #+ATTR_LATEX: :width .75\linewidth
 [[./leancanvas-1200x800_c.png]]
 
+** エレベータピッチの例
 
-** エレベータピッチ
+#+CAPTION: Example of elevetor pitch
+#+NAME:   fig:elevetor_pitch
+#+ATTR_LATEX: :width .75\linewidth
+[[./140511ux-pitch.png]]
 
-（画像）
+** 研究課題
+   - リーンキャンバスやエレベータピッチからだけでProduct Back Logが作れるのだろうか？
+   - 基幹業務システムなどの大規模開発には不向きなのではないか？
 
 * 方法
-** ほげ
+** 既存の手法
+  - アジャイルモデリング
+    - [[http://www.ogis-ri.co.jp/otc/swec/process/am-res/am/][アジャイルモデリング(AM)ホームページ]]
+  - DAD (Disciplined Agile Delivery)
+    - [[http://www.disciplinedagiledelivery.com/][Disciplined Agile 2.0 | A Process Decision Framework for Enterprise I.T.]]
 
-* 結果
-** ほげ
+** SBVA法との組み合わせ
+*** SBVA法
+    - LWな要求分析手法として提案
+      - 中鉢欣秀, 小林孝弘, 松澤芳昭, 大岩元: シナリオの図解化によるユースケースモデリング, 電子情報通信学会論文誌 D, Vol.J88-D1, No.4, pp.813-828, 2005/04/01
+      - 中鉢欣秀: 専門職大学院におけるモデリング教育とSBVA, 要求分析WS in 奄美大島, 2008
+      - [[http://thinkit.co.jp/article/43/1/][Think IT 第1回：シナリオに基づく設計とSBVA法とは？ (1/3)]]
+*** 研究の障壁
+    - 分析用のツールの開発
+    - 実際の業務に基づいた事例が必要
 
-* 考察
-** ほげ
+** ツールの設計
+    - 2009年にツールの設計（要求分析）のみ実施
+
+** 企業との共同研究
+   - 大手産業機械メーカ（大阪）の子会社が興味を示す
+   - 基幹システムの再構築を目指す
+
+** 現在の進捗状況
+   - 別資料
+
+* まとめ
+** まとめ
+   - TODO
 
 * 参考文献
 ** 参考文献
    - [[http://www.amazon.co.jp/dp/4873115914%20][Running Lean ―実践リーンスタートアップ]]
    - [[http://staycreative.jp/tech-and-business/leancanvas-30minutes/][「リーンキャンバス」を使って事業計画書を 30 分で作る方法 | Stay Creative !]]
+   - [[http://matome.naver.jp/odai/2141167487774378901][分かりやすくプレゼンをするコツ「エレベーターピッチ」とは？ - NAVER まとめ]]
+   - [[http://atomos-design.com/%E6%96%B0%E8%A6%8F%E8%A3%BD%E5%93%81%E9%96%8B%E7%99%BA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AEux%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97/][新規製品開発のためのUXデザインワークショップ | ATOMOS DESIGN]]
 
 * メモ
 ** メモ
-  - enPiT アジャイル開発 リーンキャンバス（EVピッチ） -> Scrum
-  - 新規ビジネス（スタートアップ）ならそれでよい
-    - 大規模な業務システムなら？
-  - アジャイルモデリング？
-    [[http://www.ogis-ri.co.jp/otc/swec/process/am-res/am/][アジャイルモデリング(AM)ホームページ]]
-  - SBVA法
-    - LWな要求分析手法として提案
-    - その後、進捗なし
-    - 分析用ツールの開発、適用事例が必要
-  - 大阪のK社の子会社との共同研究
-    - K社の基幹システムの見直し
-  - 現在の進捗
