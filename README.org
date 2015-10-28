@@ -17,6 +17,45 @@
   - Product Back Log の作り方
 ** リーンキャンバス
 *** リーンキャンバスとは
+#+CAPTION: caption
+    #+ATTR_LaTeX: scale=0.75
+    #+LABEL: fig:label
     - 「30分で作る事業計画書」
-*** 参考文献
-    - [[http://www.amazon.co.jp/dp/4873115914%20][Running Lean ―実践リーンスタートアップ]]
+** リーンキャンバスの例
+
+#+CAPTION: Tools used in enPiT Program.
+#+NAME:   fig:tools
+#+ATTR_LATEX: :width .75\linewidth
+[[./leancanvas-1200x800_c.png]]
+
+
+** エレベータピッチ
+
+（画像）
+
+* 方法
+** ほげ
+
+* 結果
+** ほげ
+
+* 考察
+** ほげ
+
+* 参考文献
+** 参考文献
+   - [[http://www.amazon.co.jp/dp/4873115914%20][Running Lean ―実践リーンスタートアップ]]
+   - [[http://staycreative.jp/tech-and-business/leancanvas-30minutes/][「リーンキャンバス」を使って事業計画書を 30 分で作る方法 | Stay Creative !]]
+
+* メモ
+** メモ
+  - enPiT アジャイル開発 リーンキャンバス（EVピッチ） -> Scrum
+  - 新規ビジネス（スタートアップ）ならそれでよい
+    - 大規模な業務システムなら？
+  - SBVA法
+    - LWな要求分析手法として提案
+    - その後、進捗なし
+    - 分析用ツールの開発、適用事例が必要
+  - 大阪のK社の子会社との共同研究
+    - K社の基幹システムの見直し
+  - 現在の進捗
