@@ -1,0 +1,22 @@
+#+TITLE: アジャイルソフトウェア開発における概念モデルの可能性
+#+AUTHOR: 産業技術大学院大学 \linebreak 中鉢 欣秀
+#+DATE: 2015-11-29
+#+BEAMER_THEME: Madrid
+#+OPTIONS: toc:nil
+#+OPTIONS: H:2
+#+OPTIONS: ^:nil
+#+COLUMNS: %45ITEM %10BEAMER_ENV(Env) %10BEAMER_ACT(Act) %4BEAMER_COL(Col) %8BEAMER_OPT(Opt)
+#+PROPERTY: BEAMER_col_ALL 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0.0 :ETC
+# #+LaTeX_CLASS_OPTIONS: [14pt]
+
+
+* 背景
+** アジャイル開発における要求分析
+  - アジャイル開発における要求の分析
+  - Scrum -> Product Backlogを作ることから始める
+  - Product Back Log の作り方
+** リーンキャンバス
+*** リーンキャンバスとは
+    - 「30分で作る事業計画書」
+*** 参考文献
+    - [[http://www.amazon.co.jp/dp/4873115914%20][Running Lean ―実践リーンスタートアップ]]
